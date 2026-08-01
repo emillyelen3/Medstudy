@@ -105,3 +105,27 @@ nav a {
 nav a:hover {
     background: #f3e8ff;
 }
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin: 20px;
+}
+
+.info-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+.info-card h3 {
+    margin: 0;
+}
+
+.info-card p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #a855f7;
+}
